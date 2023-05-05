@@ -11,7 +11,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configure Stripe API key
-stripe.api_key = os.getenv('STRIPE_API_KEY')
+stripe.api_key = os.getenv('sk-9q9ATWj9rYpQC76NwV1iT3B1bkFJGBIVOE6p8LIVHLiYP34ei') 
+
+const TelegramBot = require('6029260923:AAECtOxFFj6sZ0S7ZXXCT2FGl115fJ7HR4');
 
 # Enable logging
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
